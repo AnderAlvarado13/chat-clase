@@ -11,13 +11,34 @@
 - Node version "v20.16.0"
 - npm version "10.8.1"
 - MySQL
-> [!NOTE]
-> Puede que sea necesario que cree en su base de datos MySQL el schema `clase_db` y modificar las credencias en el `.env`, esto con el fin de que se creen las tablas y las relaciones correspondientes.
 
-***Comandos***
->
-- Ejecute `npm install --force o npm install --legacy-peer-deps` permite crear los archivos necesarios para gestionar la api.
-- Ejecute `npm start` para que se inicie la api, si todo salio correcto tendríamos disponible el puerto `localhost:5000` para el cual ya podemos realizarle peticiones.
+1. **Clonar el repositorio**
+
+   Clona este repositorio en tu máquina local:
+
+   ```bash
+   git clone https://github.com/AnderAlvarado13/chat-clase.git
+2. **Configurar la base de datos MySQL**
+   ```sql
+    CREATE DATABASE clase_db;
+   ```
+    > Es necesario que cree en su base de datos MySQL cree el schemas `clase_db` y modificar las credencias en la ruta: `.env`:
+    ```json
+      DB_NAME=clase_db
+      DB_USER=root
+      DB_PASS=tu-contrasena
+      DB_HOST=localhost
+      JWT_SECRET=$klasjmdlkamsdlop123aD21
+      PORT=5000
+    ```
+    Reemplaza root por tu usuario de MySQL y tu-contrasena por tu contraseña de MySQL.
+   
+4. **Instalar las dependencias del proyecto**
+   ```bash
+   npm install --force o npm install --legacy-peer-deps
+
+5. **Ejecutar la Server**
+- Ejecute `npm start` para que se inicie la server, si todo salio correcto tendríamos disponible el puerto `localhost:5000` para el cual ya podemos realizarle peticiones.
 
 ***request use***
 
