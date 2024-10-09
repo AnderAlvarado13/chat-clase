@@ -1,5 +1,5 @@
  <h2 align="center">
-  API de Hotel - Node.js | Sequelize
+  Server Clase - Node.js | Sequelize
 </h2>
 
 - En este repositorio encontraras la gestión Backend para el proceso de una clase virtual para la interacción de los estudiantes y moderadores en el cual se puede encontrar con un ORM como lo es Sequelize para la gestión hacia la base de datos esto con el fin de realizar una gestión mucho mas eficaz.
