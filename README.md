@@ -2,7 +2,7 @@
   API de Hotel - Node.js | Sequelize
 </h2>
 
-- En este repositorio encontraras la gestión Backend para el proceso de reservas de acuerdo a la gestión de un hotel en el cual se puede encontrar con un ORM como lo es Sequelize para la gestión hacia la base de datos esto con el fin de realizar una gestión mucho mas eficaz.
+- En este repositorio encontraras la gestión Backend para el proceso de una clase virtual para la interacción de los estudiantes y moderadores en el cual se puede encontrar con un ORM como lo es Sequelize para la gestión hacia la base de datos esto con el fin de realizar una gestión mucho mas eficaz.
 
 <h3> 🛠️ Indicaciones de la Api 🛠️ </h3>
 
