@@ -41,7 +41,7 @@
 - Ejecute `npm start` para que se inicie la server, si todo salio correcto tendríamos disponible el puerto `localhost:5000` para el cual ya podemos realizarle peticiones.
 
 
-*request use*
+***request use***
 
 > [!NOTE]
 > Se realizaron pruebas unitarias con postman las cuales dejo el uso de ellas de la siguiente forma: 
