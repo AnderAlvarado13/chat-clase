@@ -1,4 +1,4 @@
-const Message = require('./models/Message');  // Importar el modelo de mensajes
+const Message = require('./models/Message'); 
 
 module.exports = (server) => {
     const io = require('socket.io')(server);
@@ -10,6 +10,7 @@ module.exports = (server) => {
             
             try {
                 await Message.create({ content: msg, username: 'student1', isModerator: false });
+                // Se tiene que manejar dinamicamente pensemoslo...
             } catch (err) {
                 console.error("Error al guardar el mensaje:", err);
             }
